@@ -155,7 +155,7 @@ function saveBean(type, id = ""){
                 success: function(data){
                     var datos = eval("(" + data + ")" );
                     if(datos["resultado"] == true){
-                        alert("El campo Nickname se encuentra repetido.");
+                        alert("El nickname ingresado ya existe. Debe ingresar otro.");
                         resp = true;
                         return false;
                     }else{
