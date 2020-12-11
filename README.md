@@ -8,4 +8,4 @@ Se debe modificar el archivo functions.php para modificar las credenciales de co
 Hacer la prueba ingresando a {DireccionIP o ServidorApache}/prueba_integro.
 
 Usuario Login: hectoralf
-Clave: Pruebaintrego1
+Clave: Pruebaintegro1
