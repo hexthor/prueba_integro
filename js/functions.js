@@ -139,7 +139,7 @@ function saveBean(type, id = ""){
 
             var patt2 = /^(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
             if( ! patt2.test($("#" + password_input).val()) || $("#" + password_input).val().length == 0 ){
-                $("#" + password_input).attr('data-toggle', 'tooltip').attr('data-placement', 'right').attr('title', 'Campo requerido. Debe contener mínimo una mayúscula y un número').tooltip({trigger: 'manual'}).tooltip('show');
+                $("#" + password_input).attr('data-toggle', 'tooltip').attr('data-placement', 'right').attr('title', 'Campo requerido. Debe contener mínimo 8 caracteres, una letra mayúscula y un número').tooltip({trigger: 'manual'}).tooltip('show');
                 return;
             }
 
